@@ -1,0 +1,459 @@
+
+.landing-page {
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.site-toolbar {
+    min-height: 90px;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.brand img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.desktop-nav .nav-link {
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.desktop-nav .signup-button {
+    min-width: 113px;
+    min-height: 47px;
+    margin-left: 12px;
+    border-radius: 11px;
+    background: #ff5358;
+    box-shadow: none;
+}
+
+.mobile-menu-button,
+.mobile-navigation {
+    display: none !important;
+}
+
+.page-content {
+    padding-bottom: 60px;
+}
+
+.hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.12fr 0.88fr;
+    align-items: center;
+    min-height: 590px;
+    padding: 15px 30px 10px;
+}
+
+.hero-copy {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title.MuiTypography-root {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(60px, 6.1vw, 91px);
+    font-weight: 400;
+    letter-spacing: -4px;
+    line-height: 1.2;
+}
+
+.highlight {
+    padding: 0 3px 3px;
+    color: #fff;
+    background: #ff5358;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.hero-description.MuiTypography-root {
+    max-width: 560px;
+    margin: 45px 0 56px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.email-signup {
+    display: flex;
+    align-items: stretch;
+    gap: 26px;
+    width: 100%;
+    max-width: 562px;
+}
+
+.email-signup .MuiTextField-root {
+    flex: 1;
+    min-width: 0;
+}
+
+.email-signup .MuiOutlinedInput-root {
+    height: 64px;
+    border-radius: 10px;
+}
+
+.email-signup .MuiOutlinedInput-notchedOutline {
+    border-color: #ffcf3e;
+}
+
+.email-signup .MuiButton-root {
+    flex: 0 0 198px;
+    border-radius: 10px;
+    color: #282828;
+    background: #ffdc4c;
+    box-shadow: none;
+    font-size: 18px;
+}
+
+.email-signup .MuiButton-root:hover {
+    background: #f5d13e;
+    box-shadow: none;
+}
+
+.hero-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+}
+
+.hero-visual img {
+    display: block;
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    object-fit: contain;
+}
+
+.decorative-dot {
+    position: absolute;
+    z-index: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.yellow-dot {
+    top: 43px;
+    left: 30px;
+    background: #ffdc4c;
+}
+
+.coral-dot {
+    top: 265px;
+    left: -52px;
+    background: #ff5358;
+}
+
+.lower-section {
+    display: grid;
+    grid-template-columns: 1fr 1.35fr;
+    align-items: start;
+    gap: 55px;
+}
+
+.task-preview {
+    padding-top: 5px;
+}
+
+.task-row {
+    display: grid;
+    grid-template-columns: 25px minmax(0, 1fr) 38px 60px 14px;
+    align-items: center;
+    gap: 15px;
+    min-height: 55px;
+    padding: 8px 17px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 8px 35px rgb(0 0 0 / 3%);
+}
+
+.task-row:nth-child(2) {
+    min-height: 56px;
+    box-shadow: 0 14px 35px rgb(0 0 0 / 10%);
+}
+
+.task-indicator {
+    width: 23px;
+    height: 23px;
+    border: 4px solid #e9efff;
+    border-radius: 50%;
+}
+
+.task-title.MuiTypography-root {
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.task-avatar {
+    display: block;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.task-date.MuiTypography-root {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.task-status {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.task-faded {
+    opacity: 0.22;
+    box-shadow: none;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 45px;
+    padding-top: 90px;
+}
+
+.feature-card {
+    min-width: 0;
+}
+
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 15px;
+    border: 6px solid #fff2df;
+    border-radius: 50%;
+}
+
+.feature-icon img {
+    width: 37px;
+    height: 37px;
+    object-fit: contain;
+}
+
+.benefits-feature .feature-icon {
+    border-color: #ffe0e1;
+}
+
+.feature-card h2.MuiTypography-root {
+    margin: 0 0 11px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.feature-card p.MuiTypography-root {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+@media (max-width: 1100px) {
+    .desktop-nav {
+        gap: 4px;
+    }
+
+    .desktop-nav .nav-link {
+        padding-right: 7px;
+        padding-left: 7px;
+        font-size: 13px;
+    }
+
+    .hero {
+        grid-template-columns: 1.1fr 0.9fr;
+        min-height: 520px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .hero-title.MuiTypography-root {
+        font-size: clamp(55px, 6.5vw, 75px);
+        letter-spacing: -3px;
+    }
+
+    .hero-description.MuiTypography-root {
+        margin: 32px 0;
+        font-size: 17px;
+    }
+
+    .email-signup {
+        gap: 12px;
+    }
+
+    .email-signup .MuiButton-root {
+        flex-basis: 145px;
+    }
+
+    .lower-section {
+        grid-template-columns: 1fr 1.2fr;
+        gap: 28px;
+    }
+
+    .features {
+        gap: 25px;
+        padding-top: 65px;
+    }
+
+    .task-row {
+        grid-template-columns: 23px minmax(0, 1fr) 32px 48px 12px;
+        gap: 9px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .site-toolbar {
+        min-height: 76px;
+    }
+
+    .desktop-nav {
+        display: none !important;
+    }
+
+    .mobile-menu-button.MuiIconButton-root {
+        display: inline-flex !important;
+    }
+
+    .menu-lines {
+        font-size: 25px;
+    }
+
+    .mobile-navigation.mobile-navigation-open {
+        display: flex !important;
+        padding: 0 0 16px;
+    }
+
+    .page-content {
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        min-height: auto;
+        padding: 45px 0 30px;
+    }
+
+    .hero-title.MuiTypography-root {
+        font-size: clamp(53px, 11vw, 76px);
+        letter-spacing: -2.5px;
+        line-height: 1.12;
+    }
+
+    .hero-description.MuiTypography-root {
+        margin: 25px 0 28px;
+        font-size: 16px;
+    }
+
+    .email-signup {
+        gap: 10px;
+    }
+
+    .email-signup .MuiOutlinedInput-root {
+        height: 54px;
+    }
+
+    .email-signup .MuiButton-root {
+        flex-basis: 125px;
+        font-size: 15px;
+    }
+
+    .hero-visual img {
+        max-width: 430px;
+    }
+
+    .yellow-dot {
+        top: 17px;
+        left: 4px;
+        width: 11px;
+        height: 11px;
+    }
+
+    .coral-dot {
+        top: 310px;
+        right: 0;
+        left: auto;
+        width: 11px;
+        height: 11px;
+    }
+
+    .lower-section {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .task-row {
+        grid-template-columns: 25px minmax(0, 1fr) 34px 48px 12px;
+        gap: 10px;
+        padding: 8px 12px;
+    }
+
+    .task-avatar {
+        width: 34px;
+        height: 34px;
+    }
+
+    .features {
+        gap: 24px;
+        padding-top: 15px;
+    }
+
+    .feature-icon {
+        width: 62px;
+        height: 62px;
+    }
+
+    .feature-icon img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .feature-card h2.MuiTypography-root {
+        font-size: 17px;
+    }
+
+    .feature-card p.MuiTypography-root {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 390px) {
+    .hero-title.MuiTypography-root {
+        font-size: 49px;
+    }
+
+    .email-signup {
+        gap: 8px;
+    }
+
+    .email-signup .MuiButton-root {
+        flex-basis: 112px;
+        font-size: 14px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+}
