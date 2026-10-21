@@ -1,16 +1,35 @@
-# React + Vite
+# 🚀 Responsive SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, high-converting SaaS landing page translated directly from Figma specifications into clean, production-ready React code. Built with modular component architecture, responsive design principles, and optimized visual asset management.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [https://demo-landing-mu-neon.vercel.app/]  
+🎨 **Figma Source:** [https://www.figma.com/design/Z7idGm6bu5t659lulM1UIG/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Design Fidelity:** Pixel-perfect implementation matching Figma layout specifications, custom typography, and color tokens.
+- **Responsive Layout:** Fully optimized for mobile, tablet, and desktop viewports using dynamic grid systems.
+- **Component Architecture:** Structured into modular, reusable UI sections (Hero, Features Grid, Call-to-Action, Testimonials, Footer).
+- **Asset Optimization:** Clean vector (SVG) integration and image handling for fast loading speeds and high-DPI (Retina/4K) screen support.
+- **Modern UI Styling:** Styled with Material UI (MUI v5) and custom layout wrappers for consistent spacing and elevation.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Framework:** React + Vite
+- **UI Component Library:** Material UI (MUI v5)
+- **Deployment & Hosting:** Vercel
+
+---
+
+## 📂 Project Structure
+
+src/
+├── assets/          # SVG icons, illustrations, and optimized imagery
+├── components/      # Reusable UI sections
+├── pages/           # Route views
+├── theme/           # MUI custom theme
+└── App.jsx          # Root component and global layout wrapper
