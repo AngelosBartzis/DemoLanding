@@ -111,11 +111,24 @@
 }
 
 .highlight {
-    padding: 0 3px 3px;
+    display: inline-block;
+    position: relative;
+    isolation: isolate;
+    padding: 0 5px 0 3px;
     color: #fff;
+    line-height: 0.75;
+    vertical-align: baseline;
+}
+
+.highlight::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
     background: #ff5358;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    top: 4px;
+    bottom: -8px;
+    left: 0;
+    right: 0;
 }
 
 .hero-description.MuiTypography-root {
@@ -307,13 +320,14 @@
     margin: 0 0 11px;
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.35;
 }
 
 .feature-card p.MuiTypography-root {
     margin: 0;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1.4;
 }
 
