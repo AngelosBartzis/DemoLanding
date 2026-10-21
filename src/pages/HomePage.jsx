@@ -21,7 +21,7 @@ import avatarTeamWiki from '../assets/avatar-team-wiki.png'
 import iconMotivation from '../assets/icon-motivation.svg'
 import iconBenefits from '../assets/icon-benefits.svg'
 
-import './HomePage.css'
+import '../styles/HomePage.css'
 
 const tasks = [
     {title: 'Time management', date: '26 Apr', avatar: avatarTimeManagement, color: '#D9E4FF', status: '#FF5358'},
@@ -278,7 +278,11 @@ export default function HomePage() {
         <Box className="landing-page">
             <Header/>
 
-            <Container maxWidth="lg" className="page-content">
+            <Container
+                maxWidth={false}
+                disableGutters
+                className="page-content"
+            >
                 <Hero/>
 
                 <Box component="section" className="lower-section">

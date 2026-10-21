@@ -1,13 +1,13 @@
 
 .landing-page {
+    width: 100%;
     min-height: 100vh;
-    overflow: hidden;
-    background: #fff;
+    margin: 0;
+    background: #ffffff;
 }
 
 .site-toolbar {
-    min-height: 90px;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .brand {
@@ -129,7 +129,7 @@
 .hero-visual img {
     display: block;
     width: 100%;
-    max-width: 510px;
+    max-width: 560px;
     height: auto;
     object-fit: contain;
 }
@@ -156,9 +156,10 @@
 
 .lower-section {
     display: grid;
-    grid-template-columns: 1fr 1.35fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
     align-items: start;
-    gap: 55px;
+    gap: clamp(32px, 5vw, 80px);
+    width: 100%;
 }
 
 .task-preview {
@@ -278,11 +279,21 @@
         font-size: 13px;
     }
 
+    .page-content.MuiContainer-root {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 0 clamp(24px, 5vw, 80px) 60px;
+    }
+
     .hero {
-        grid-template-columns: 1.1fr 0.9fr;
-        min-height: 520px;
-        padding-right: 0;
-        padding-left: 0;
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+        align-items: center;
+        width: 100%;
+        min-height: clamp(500px, 43vw, 650px);
+        padding: 15px 0 10px;
     }
 
     .hero-title.MuiTypography-root {
