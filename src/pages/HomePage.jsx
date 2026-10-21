@@ -70,6 +70,9 @@ function Header() {
                         aria-label="Motivve home"
                     >
                         <Box component="img" src={logo} alt="Motivve"/>
+                        <Typography component="span" className="brand-name">
+                            Motivve
+                        </Typography>
                     </Box>
 
                     <Stack
