@@ -227,6 +227,7 @@
 .task-row:nth-child(2) {
     min-height: 56px;
     box-shadow: 0 14px 35px rgb(0 0 0 / 10%);
+    transform: translateX(-35px);
 }
 
 .task-indicator {
