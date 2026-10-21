@@ -17,6 +17,7 @@
     min-height: 76px;
     align-items: center;
     justify-content: space-between;
+    transform: translateY(10px);
 }
 
 .brand {
@@ -187,7 +188,7 @@
 
 .yellow-dot {
     top: -52px;
-    left: 42px;
+    left: 5px;
     background: #ffdc4c;
 }
 
@@ -334,6 +335,11 @@
         padding-left: clamp(24px, 5vw, 60px);
     }
 
+    .coral-dot {
+        top: 250px;
+        left: -32px;
+    }
+
     .hero {
         min-height: clamp(500px, 43vw, 650px);
     }
@@ -377,6 +383,7 @@
 @media (max-width: 700px) {
     .site-toolbar {
         min-height: 76px;
+        transform: translateY(10px);
     }
 
     .brand img {
@@ -445,16 +452,16 @@
     }
 
     .yellow-dot {
-        top: 17px;
+        top: -10px;
         left: 4px;
         width: 11px;
         height: 11px;
     }
 
     .coral-dot {
-        top: 310px;
+        top: 170px;
         right: 0;
-        left: auto;
+        left: -11px;
         width: 11px;
         height: 11px;
     }
@@ -469,6 +476,11 @@
         grid-template-columns: 25px minmax(0, 1fr) 34px 48px 12px;
         gap: 10px;
         padding: 8px 12px;
+    }
+
+    .task-row:nth-child(2) {
+        transform: translateX(-10px);
+        margin-left: 10px;
     }
 
     .task-avatar {

@@ -78,7 +78,7 @@ function Header() {
                     <Stack
                         component="nav"
                         direction="row"
-                        alignItems="center"
+                        alignitems="center"
                         spacing={{md: 1, lg: 2}}
                         className="desktop-nav"
                         aria-label="Main navigation"
@@ -164,7 +164,7 @@ function EmailSignup() {
                 required
                 fullWidth
                 size="medium"
-                inputProps={{'aria-label': 'Email address'}}
+                inputprops={{'aria-label': 'Email address'}}
             />
 
             <Button type="submit" variant="contained" color="secondary">
