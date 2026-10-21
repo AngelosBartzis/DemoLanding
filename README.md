@@ -1,4 +1,4 @@
-# 🚀 Responsive SaaS Landing Page
+# Responsive SaaS Landing Page
 
 A modern, high-converting SaaS landing page translated directly from Figma specifications into clean, production-ready React code. Built with modular component architecture, responsive design principles, and optimized visual asset management.
 
