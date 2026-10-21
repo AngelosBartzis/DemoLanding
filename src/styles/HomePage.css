@@ -29,16 +29,17 @@
 
 .brand img {
     display: block;
-    width: 27px;
-    height: 27px;
+    width: 50px;
+    height: 33px;
     object-fit: contain;
 }
 
 .brand-name.MuiTypography-root {
     color: #303030;
-    font-size: 19px;
+    font-family: 'Asul', serif;
+    font-size: 20px;
     font-weight: 700;
-    letter-spacing: -0.5px;
+    letter-spacing: 0;
     line-height: 1;
     white-space: nowrap;
 }
@@ -185,13 +186,13 @@
 }
 
 .yellow-dot {
-    top: 43px;
-    left: 30px;
+    top: -52px;
+    left: 42px;
     background: #ffdc4c;
 }
 
 .coral-dot {
-    top: 265px;
+    top: 280px;
     left: -52px;
     background: #ff5358;
 }
