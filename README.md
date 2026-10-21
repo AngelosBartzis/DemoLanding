@@ -1,9 +1,10 @@
-# Responsive SaaS Landing Page
+# React Figma-to-Code SaaS Landing Page
 
 A modern, high-converting SaaS landing page translated directly from Figma specifications into clean, production-ready React code. Built with modular component architecture, responsive design principles, and optimized visual asset management.
 
-🚀 **Live Demo:** [https://demo-landing-mu-neon.vercel.app/]  
-🎨 **Figma Source:** [https://www.figma.com/design/Z7idGm6bu5t659lulM1UIG/]
+🚀 **Live Demo:** [https://demo-landing-mu-neon.vercel.app/](https://demo-landing-mu-neon.vercel.app/)
+
+🎨 **Figma Source:** [https://www.figma.com/design/Z7idGm6bu5t659lulM1UIG/](https://www.figma.com/design/Z7idGm6bu5t659lulM1UIG/)
 
 ---
 
